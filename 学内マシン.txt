@@ -1,0 +1,84 @@
+384コアx2 のマシンについて
+アカウント: maelab
+パスワード: maelabmaelab
+IP: 202.17.18.122
+ssh maelab@202.17.18.122
+こちらで，学内からなら入れると思います．
+また，実行する際は，
+tsp ./a.out
+のようにしてください．
+簡易ジョブ管理を入れていて，占有できるようにジョブ管理の待機列を作っています．
+tspでジョブの状況も確認できると思います。
+
+
+maelab@kemeko:~/cittest$ free -g
+               total        used        free      shared  buff/cache   available
+Mem:            2266          36        2233           0           6        2230
+Swap:              7           0           7
+maelab@kemeko:~/cittest$ lscpu
+Architecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          52 bits physical, 57 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   768
+  On-line CPU(s) list:    0-767
+Vendor ID:                AuthenticAMD
+  Model name:             AMD EPYC 9965 192-Core Processor
+    CPU family:           26
+    Model:                17
+    Thread(s) per core:   2
+    Core(s) per socket:   192
+    Socket(s):            2
+    Stepping:             0
+    Frequency boost:      enabled
+    CPU(s) scaling MHz:   72%
+    CPU max MHz:          2250.0000
+    CPU min MHz:          1500.0000
+    BogoMIPS:             4499.92
+    Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 cl
+                          flush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm co
+                          nstant_tsc rep_good amd_lbr_v2 nopl nonstop_tsc cpuid extd_apicid aperfmpe
+                          rf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic mov
+                          be popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_leg
+                          acy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext pe
+                          rfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate
+                           ssbd mba perfmon_v2 ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase tsc_ad
+                          just bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed ad
+                          x smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveo
+                          pt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local
+                           user_shstk avx_vnni avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd a
+                          md_ppin cppc amd_ibpb_ret arat npt lbrv svm_lock nrip_save tsc_scale vmcb_
+                          clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmlo
+                          ad vgif x2avic v_spec_ctrl vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfn
+                          i vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid bu
+                          s_lock_detect movdiri movdir64b overflow_recov succor smca fsrm avx512_vp2
+                          intersect flush_l1d debug_swap
+Virtualization features:
+  Virtualization:         AMD-V
+Caches (sum of all):
+  L1d:                    18 MiB (384 instances)
+  L1i:                    12 MiB (384 instances)
+  L2:                     384 MiB (384 instances)
+  L3:                     768 MiB (24 instances)
+NUMA:
+  NUMA node(s):           2
+  NUMA node0 CPU(s):      0-191,384-575
+  NUMA node1 CPU(s):      192-383,576-767
+Vulnerabilities:
+  Gather data sampling:   Not affected
+  Itlb multihit:          Not affected
+  L1tf:                   Not affected
+  Mds:                    Not affected
+  Meltdown:               Not affected
+  Mmio stale data:        Not affected
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Not affected
+  Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on;
+                          RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
+  Vmscape:                Not affected
+maelab@kemeko:~/cittest$
