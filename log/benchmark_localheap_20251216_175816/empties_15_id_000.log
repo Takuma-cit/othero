@@ -1,0 +1,31 @@
+Dynamic task spawning settings:
+  Max generation: 3
+  Min depth for spawn: 6
+  Spawn limit per node: 999
+
+[17:58:16.994] Loaded evaluation weights from eval/eval.dat (version 3.2.5)
+Loading position from: test_positions/empties_15_id_000.pos
+[17:58:16.997] 
+=== Othello Endgame Solver (HYBRID LocalHeap+GlobalChunk Version) ===
+[17:58:16.997] Threads: 8 (fixed), Time limit: 30.0s
+[17:58:16.997] Evaluation function: ENABLED
+[17:58:16.997] SIMD acceleration: Move generation=Scalar, Board symmetry=AVX2
+[17:58:16.997] Empties: 15
+[17:58:16.997] TT created: 1024 MB (16777216 entries)
+[17:58:16.997] HYBRID settings: LocalHeap=1024, ChunkSize=16, ExportThreshold=20
+[17:58:16.997] HYBRID: GlobalChunkQueue=4096 chunks, SharedArray=4096 tasks
+[17:58:16.997] Spawn settings: max_gen=3, min_depth=6, limit=999
+[17:58:16.997] Legal moves: 10
+
+[17:58:16.997] Initial task distribution to SharedTaskArray:
+[17:58:16.997]   b4: eval=-27 -> SharedTaskArray
+[17:58:16.997]   g4: eval=-22 -> SharedTaskArray
+[17:58:16.997]   a3: eval=-30 -> SharedTaskArray
+[17:58:16.997]   b3: eval=-28 -> SharedTaskArray
+[17:58:16.997]   h3: eval=-20 -> SharedTaskArray
+[17:58:16.997]   a2: eval=-28 -> SharedTaskArray
+[17:58:16.997]   f2: eval=-15 -> SharedTaskArray
+[17:58:16.997]   b1: eval=-24 -> SharedTaskArray
+[17:58:16.997]   c1: eval=-24 -> SharedTaskArray
+[17:58:16.997]   d1: eval=-24 -> SharedTaskArray
+[17:58:16.997] 

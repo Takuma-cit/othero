@@ -1,0 +1,17 @@
+----DeepPN Benchmark----
+Position: test_positions/empties_10_id_000.pos
+Empties: 10
+Turn: Black
+TimeLimit: 300.0 sec
+R parameter: 1
+------------------------
+
+--- Results ---
+Result: WIN
+Time: 0.000674
+Nodes: 1197
+ExpandedNodes: 2330
+NPS: 1775846
+TT_stores: 1197
+TT_hits: 2154
+---------------

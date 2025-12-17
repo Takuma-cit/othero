@@ -1,0 +1,12 @@
+=== WPNS Output ===
+Total: 1522 nodes in 0.005 sec (286779 NPS)
+Result: WIN
+TT hits: 9636, TT stores: 1522
+
+=== Hybrid Output ===
+Loading position from: test_positions/empties_10_id_000.pos
+
+--- FINAL RESULT ---
+Result: WIN
+Best move: f8
+══════════════════

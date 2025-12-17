@@ -1,0 +1,290 @@
+Dynamic task spawning settings:
+  Max generation: 3
+  Min depth for spawn: 6
+  Spawn limit per node: 3
+
+[15:38:04.133] Loaded evaluation weights from eval/eval.dat (version 3.2.5)
+Loading position from: test_positions/empties_12_id_000.pos
+[15:38:04.136] 
+=== Othello Endgame Solver (Work Stealing Version) ===
+[15:38:04.136] Threads: 64 (fixed), Time limit: 300.0s
+[15:38:04.136] Evaluation function: ENABLED
+[15:38:04.136] Empties: 12
+[15:38:04.136] TT created: 4096 MB (67108864 entries)
+[15:38:04.136] Spawn settings: max_gen=3, min_depth=6, limit=3
+[15:38:04.136] Legal moves: 9
+
+[15:38:04.140] Move ordering by evaluation:
+[15:38:04.140]   b7: eval=-7, priority=8993
+[15:38:04.140]   f8: eval=-9, priority=7991
+[15:38:04.140]   h8: eval=-12, priority=6988
+[15:38:04.140]   h3: eval=-12, priority=5988
+[15:38:04.140]   f2: eval=-15, priority=4985
+[15:38:04.140]   d1: eval=-16, priority=3984
+[15:38:04.141]   b1: eval=-18, priority=2982
+[15:38:04.141]   h1: eval=-20, priority=1980
+[15:38:04.141]   b3: eval=-23, priority=977
+[15:38:04.141] 
+[15:38:04.141] Worker 0 started (Work Stealing mode)
+[15:38:04.141] Worker 6 started (Work Stealing mode)
+[15:38:04.142] Worker 2 started (Work Stealing mode)
+[15:38:04.143] Worker 36 started (Work Stealing mode)
+[15:38:04.143] Worker 41 started (Work Stealing mode)
+[15:38:04.143] Worker 50 started (Work Stealing mode)
+[15:38:04.144] Worker 1 started (Work Stealing mode)
+[15:38:04.144] Worker 7 started (Work Stealing mode)
+[15:38:04.146] Worker 8 started (Work Stealing mode)
+[15:38:04.147] Worker 9 started (Work Stealing mode)
+[15:38:04.147] Worker 10 started (Work Stealing mode)
+[15:38:04.149] Worker 11 started (Work Stealing mode)
+[15:38:04.149] Worker 12 started (Work Stealing mode)
+[15:38:04.150] Worker 13 started (Work Stealing mode)
+[15:38:04.150] Worker 14 started (Work Stealing mode)
+[15:38:04.151] Worker 15 started (Work Stealing mode)
+[15:38:04.151] Worker 16 started (Work Stealing mode)
+[15:38:04.151] Worker 17 started (Work Stealing mode)
+[15:38:04.152] Worker 18 started (Work Stealing mode)
+[15:38:04.152] Worker 19 started (Work Stealing mode)
+[15:38:04.154] Worker 20 started (Work Stealing mode)
+[15:38:04.155] Worker 12 spawned 3 subtasks
+[15:38:04.156] Worker 14 spawned 3 subtasks
+[15:38:04.157] Worker 22 started (Work Stealing mode)
+[15:38:04.157] Worker 21 started (Work Stealing mode)
+[15:38:04.158] Worker 24 started (Work Stealing mode)
+[15:38:04.160] Worker 20 spawned 3 subtasks
+[15:38:04.163] Worker 26 started (Work Stealing mode)
+[15:38:04.163] Worker 27 started (Work Stealing mode)
+[15:38:04.163] Worker 28 started (Work Stealing mode)
+[15:38:04.164] Worker 29 started (Work Stealing mode)
+[15:38:04.164] Worker 30 started (Work Stealing mode)
+[15:38:04.165] Worker 31 started (Work Stealing mode)
+[15:38:04.165] Worker 32 started (Work Stealing mode)
+[15:38:04.166] Worker 33 started (Work Stealing mode)
+[15:38:04.166] Worker 34 started (Work Stealing mode)
+[15:38:04.166] Worker 35 started (Work Stealing mode)
+[15:38:04.166] Worker 3 started (Work Stealing mode)
+[15:38:04.166] Worker 37 started (Work Stealing mode)
+[15:38:04.170] Worker 38 started (Work Stealing mode)
+[15:38:04.170] Worker 39 started (Work Stealing mode)
+[15:38:04.170] Worker 40 started (Work Stealing mode)
+[15:38:04.171] Worker 42 started (Work Stealing mode)
+[15:38:04.171] Worker 4 started (Work Stealing mode)
+[15:38:04.173] Worker 35 spawned 3 subtasks
+[15:38:04.173] Worker 3 spawned 3 subtasks
+[15:38:04.175] Worker 43 started (Work Stealing mode)
+[15:38:04.175] Worker 46 started (Work Stealing mode)
+[15:38:04.175] Worker 50 spawned 3 subtasks
+[15:38:04.177] Worker 48 started (Work Stealing mode)
+[15:38:04.177] Worker 48 spawned 3 subtasks
+[15:38:04.177] Worker 5 started (Work Stealing mode)
+[15:38:04.182] Worker 50 spawned 3 subtasks
+[15:38:04.183] Worker 50 finished: 1467 nodes, 6 tasks processed
+[15:38:04.184] Worker 53 started (Work Stealing mode)
+[15:38:04.184] Worker 53 finished: 0 nodes, 0 tasks processed
+[15:38:04.184] Worker 42 finished: 75 nodes, 1 tasks processed
+[15:38:04.185] Worker 55 started (Work Stealing mode)
+[15:38:04.185] Worker 55 finished: 0 nodes, 0 tasks processed
+[15:38:04.185] Worker 58 started (Work Stealing mode)
+[15:38:04.185] Worker 58 finished: 0 nodes, 0 tasks processed
+[15:38:04.186] Worker 60 started (Work Stealing mode)
+[15:38:04.186] Worker 60 finished: 0 nodes, 0 tasks processed
+[15:38:04.186] Worker 62 started (Work Stealing mode)
+[15:38:04.186] Worker 62 finished: 0 nodes, 0 tasks processed
+[15:38:04.186] Worker 7 spawned 3 subtasks
+[15:38:04.186] Worker 9 spawned 3 subtasks
+[15:38:04.186] Worker 10 spawned 3 subtasks
+[15:38:04.187] Worker 11 spawned 3 subtasks
+[15:38:04.187] Worker 18 spawned 3 subtasks
+[15:38:04.187] Worker 16 spawned 3 subtasks
+[15:38:04.187] Worker 13 spawned 2 subtasks
+[15:38:04.187] Worker 23 started (Work Stealing mode)
+[15:38:04.188] Worker 23 finished: 0 nodes, 0 tasks processed
+[15:38:04.188] Worker 2 spawned 1 subtasks
+[15:38:04.188] Worker 21 spawned 3 subtasks
+[15:38:04.188] Worker 19 spawned 3 subtasks
+[15:38:04.189] Worker 2 finished: 601 nodes, 1 tasks processed
+[15:38:04.189] Worker 14 spawned 3 subtasks
+[15:38:04.189] Worker 24 spawned 3 subtasks
+[15:38:04.189] Worker 36 spawned 3 subtasks
+[15:38:04.190] Worker 20 spawned 3 subtasks
+[15:38:04.190] Worker 24 finished: 1 nodes, 1 tasks processed
+[15:38:04.190] Worker 29 spawned 3 subtasks
+[15:38:04.190] Worker 33 spawned 3 subtasks
+[15:38:04.190] Worker 41 spawned 3 subtasks
+[15:38:04.190] Worker 40 spawned 3 subtasks
+[15:38:04.191] Worker 4 spawned 3 subtasks
+[15:38:04.191] Worker 26 spawned 3 subtasks
+[15:38:04.191] Worker 35 spawned 1 subtasks
+[15:38:04.191] Worker 41 finished: 1393 nodes, 1 tasks processed
+[15:38:04.191] Worker 3 spawned 3 subtasks
+[15:38:04.191] Worker 45 started (Work Stealing mode)
+[15:38:04.191] Worker 45 finished: 0 nodes, 0 tasks processed
+[15:38:04.192] Worker 46 spawned 3 subtasks
+[15:38:04.192] Worker 49 started (Work Stealing mode)
+[15:38:04.192] Worker 49 finished: 0 nodes, 0 tasks processed
+[15:38:04.192] Worker 44 started (Work Stealing mode)
+[15:38:04.192] Worker 44 finished: 0 nodes, 0 tasks processed
+[15:38:04.192] Worker 22: subtask found WIN for root move d1!
+[15:38:04.192] Worker 52 started (Work Stealing mode)
+[15:38:04.193] Worker 52 finished: 0 nodes, 0 tasks processed
+[15:38:04.193] Worker 8 finished: 1686 nodes, 1 tasks processed
+[15:38:04.193] Worker 1 finished: 1524 nodes, 1 tasks processed
+[15:38:04.193] Worker 37 finished: 280 nodes, 1 tasks processed
+[15:38:04.193] Worker 28 finished: 91 nodes, 1 tasks processed
+[15:38:04.193] Worker 6 finished: 1880 nodes, 1 tasks processed
+[15:38:04.193] Worker 31 finished: 175 nodes, 1 tasks processed
+[15:38:04.193] Worker 5 finished: 27 nodes, 1 tasks processed
+[15:38:04.194] Worker 51 started (Work Stealing mode)
+[15:38:04.194] Worker 51 finished: 0 nodes, 0 tasks processed
+[15:38:04.194] Worker 54 started (Work Stealing mode)
+[15:38:04.194] Worker 54 finished: 0 nodes, 0 tasks processed
+[15:38:04.194] Worker 34 finished: 56 nodes, 1 tasks processed
+[15:38:04.194] Worker 56 started (Work Stealing mode)
+[15:38:04.194] Worker 56 finished: 0 nodes, 0 tasks processed
+[15:38:04.194] Worker 38 finished: 153 nodes, 1 tasks processed
+[15:38:04.195] Worker 32 finished: 47 nodes, 1 tasks processed
+[15:38:04.195] Worker 57 started (Work Stealing mode)
+[15:38:04.195] Worker 57 finished: 0 nodes, 0 tasks processed
+[15:38:04.195] Worker 61 started (Work Stealing mode)
+[15:38:04.195] Worker 61 finished: 0 nodes, 0 tasks processed
+[15:38:04.195] Worker 7 finished: 383 nodes, 1 tasks processed
+[15:38:04.196] Worker 9 finished: 1 nodes, 1 tasks processed
+[15:38:04.196] Worker 11 finished: 3 nodes, 3 tasks processed
+[15:38:04.196] Worker 18 finished: 2 nodes, 2 tasks processed
+[15:38:04.196] Worker 10 finished: 1 nodes, 1 tasks processed
+[15:38:04.196] Worker 16 finished: 2 nodes, 2 tasks processed
+[15:38:04.196] Worker 15 spawned 2 subtasks
+[15:38:04.196] Worker 13 finished: 69 nodes, 1 tasks processed
+[15:38:04.196] Worker 21 finished: 2 nodes, 2 tasks processed
+[15:38:04.197] Worker 25 started (Work Stealing mode)
+[15:38:04.197] Worker 25 finished: 0 nodes, 0 tasks processed
+[15:38:04.197] Worker 19 finished: 155 nodes, 1 tasks processed
+[15:38:04.197] Worker 17 spawned 3 subtasks
+[15:38:04.197] Worker 20 finished: 201 nodes, 6 tasks processed
+[15:38:04.198] Worker 36 finished: 1637 nodes, 1 tasks processed
+[15:38:04.198] Worker 29 finished: 1 nodes, 1 tasks processed
+[15:38:04.198] Worker 4 finished: 3 nodes, 3 tasks processed
+[15:38:04.198] Worker 33 finished: 1 nodes, 1 tasks processed
+[15:38:04.198] Worker 27 spawned 3 subtasks
+[15:38:04.198] Worker 35 finished: 65 nodes, 6 tasks processed
+[15:38:04.198] Worker 40 finished: 1 nodes, 1 tasks processed
+[15:38:04.199] Worker 26 finished: 1 nodes, 1 tasks processed
+[15:38:04.199] Worker 3 finished: 5 nodes, 5 tasks processed
+[15:38:04.199] Worker 47 started (Work Stealing mode)
+[15:38:04.199] Worker 47 finished: 0 nodes, 0 tasks processed
+[15:38:04.199] Worker 12 spawned 3 subtasks
+[15:38:04.199] Worker 48 spawned 3 subtasks
+[15:38:04.199] Worker 22 finished: 424 nodes, 3 tasks processed
+[15:38:04.200] Worker 43 finished: 40 nodes, 5 tasks processed
+[15:38:04.200] Worker 0 finished: 1684 nodes, 1 tasks processed
+[15:38:04.200] Worker 39 finished: 40 nodes, 3 tasks processed
+[15:38:04.200] Worker 30 finished: 151 nodes, 1 tasks processed
+[15:38:04.200] Worker 59 started (Work Stealing mode)
+[15:38:04.200] Worker 59 finished: 0 nodes, 0 tasks processed
+[15:38:04.200] Worker 15 finished: 145 nodes, 1 tasks processed
+[15:38:04.201] Worker 14 finished: 26 nodes, 12 tasks processed
+[15:38:04.201] Worker 17 finished: 207 nodes, 9 tasks processed
+[15:38:04.201] Worker 27 finished: 1 nodes, 1 tasks processed
+[15:38:04.201] Worker 46 finished: 2 nodes, 2 tasks processed
+[15:38:04.201] Worker 12 finished: 209 nodes, 7 tasks processed
+[15:38:04.201] Worker 48 finished: 2 nodes, 2 tasks processed
+[15:38:04.201] Worker 63 started (Work Stealing mode)
+[15:38:04.201] Worker 63 finished: 0 nodes, 0 tasks processed
+[15:38:04.203] 
+
+=== Final Statistics ===
+[15:38:04.203] Move f8 -> UNKNOWN (1880 nodes, eval=-9)
+[15:38:04.203] Move h8 -> UNKNOWN (601 nodes, eval=-12)
+[15:38:04.203] Move b7 -> UNKNOWN (1684 nodes, eval=-7)
+[15:38:04.203] Move b3 -> UNKNOWN (1686 nodes, eval=-23)
+[15:38:04.203] Move h3 -> UNKNOWN (1637 nodes, eval=-12)
+[15:38:04.203] Move f2 -> UNKNOWN (1393 nodes, eval=-15)
+[15:38:04.203] Move b1 -> UNKNOWN (1524 nodes, eval=-18)
+[15:38:04.203] Move d1 -> WIN (1374 nodes, eval=-16)
+[15:38:04.204] Move h1 -> UNKNOWN (383 nodes, eval=-20)
+[15:38:04.204] 
+=== Worker Statistics ===
+[15:38:04.204] Worker 0: 1684 nodes, 1 tasks
+[15:38:04.204] Worker 1: 1524 nodes, 1 tasks
+[15:38:04.204] Worker 2: 601 nodes, 1 tasks
+[15:38:04.204] Worker 3: 5 nodes, 5 tasks
+[15:38:04.204] Worker 4: 3 nodes, 3 tasks
+[15:38:04.204] Worker 5: 27 nodes, 1 tasks
+[15:38:04.204] Worker 6: 1880 nodes, 1 tasks
+[15:38:04.204] Worker 7: 383 nodes, 1 tasks
+[15:38:04.204] Worker 8: 1686 nodes, 1 tasks
+[15:38:04.205] Worker 9: 1 nodes, 1 tasks
+[15:38:04.205] Worker 10: 1 nodes, 1 tasks
+[15:38:04.205] Worker 11: 3 nodes, 3 tasks
+[15:38:04.205] Worker 12: 209 nodes, 7 tasks
+[15:38:04.205] Worker 13: 69 nodes, 1 tasks
+[15:38:04.205] Worker 14: 26 nodes, 12 tasks
+[15:38:04.205] Worker 15: 145 nodes, 1 tasks
+[15:38:04.206] Worker 16: 2 nodes, 2 tasks
+[15:38:04.206] Worker 17: 207 nodes, 9 tasks
+[15:38:04.206] Worker 18: 2 nodes, 2 tasks
+[15:38:04.206] Worker 19: 155 nodes, 1 tasks
+[15:38:04.206] Worker 20: 201 nodes, 6 tasks
+[15:38:04.206] Worker 21: 2 nodes, 2 tasks
+[15:38:04.206] Worker 22: 424 nodes, 3 tasks
+[15:38:04.206] Worker 23: 0 nodes, 0 tasks
+[15:38:04.206] Worker 24: 1 nodes, 1 tasks
+[15:38:04.206] Worker 25: 0 nodes, 0 tasks
+[15:38:04.207] Worker 26: 1 nodes, 1 tasks
+[15:38:04.207] Worker 27: 1 nodes, 1 tasks
+[15:38:04.207] Worker 28: 91 nodes, 1 tasks
+[15:38:04.207] Worker 29: 1 nodes, 1 tasks
+[15:38:04.207] Worker 30: 151 nodes, 1 tasks
+[15:38:04.207] Worker 31: 175 nodes, 1 tasks
+[15:38:04.207] Worker 32: 47 nodes, 1 tasks
+[15:38:04.208] Worker 33: 1 nodes, 1 tasks
+[15:38:04.208] Worker 34: 56 nodes, 1 tasks
+[15:38:04.208] Worker 35: 65 nodes, 6 tasks
+[15:38:04.208] Worker 36: 1637 nodes, 1 tasks
+[15:38:04.208] Worker 37: 280 nodes, 1 tasks
+[15:38:04.208] Worker 38: 153 nodes, 1 tasks
+[15:38:04.208] Worker 39: 40 nodes, 3 tasks
+[15:38:04.208] Worker 40: 1 nodes, 1 tasks
+[15:38:04.208] Worker 41: 1393 nodes, 1 tasks
+[15:38:04.208] Worker 42: 75 nodes, 1 tasks
+[15:38:04.208] Worker 43: 40 nodes, 5 tasks
+[15:38:04.209] Worker 44: 0 nodes, 0 tasks
+[15:38:04.209] Worker 45: 0 nodes, 0 tasks
+[15:38:04.209] Worker 46: 2 nodes, 2 tasks
+[15:38:04.209] Worker 47: 0 nodes, 0 tasks
+[15:38:04.209] Worker 48: 2 nodes, 2 tasks
+[15:38:04.209] Worker 49: 0 nodes, 0 tasks
+[15:38:04.209] Worker 50: 1467 nodes, 6 tasks
+[15:38:04.209] Worker 51: 0 nodes, 0 tasks
+[15:38:04.209] Worker 52: 0 nodes, 0 tasks
+[15:38:04.209] Worker 53: 0 nodes, 0 tasks
+[15:38:04.210] Worker 54: 0 nodes, 0 tasks
+[15:38:04.210] Worker 55: 0 nodes, 0 tasks
+[15:38:04.210] Worker 56: 0 nodes, 0 tasks
+[15:38:04.210] Worker 57: 0 nodes, 0 tasks
+[15:38:04.210] Worker 58: 0 nodes, 0 tasks
+[15:38:04.210] Worker 59: 0 nodes, 0 tasks
+[15:38:04.210] Worker 60: 0 nodes, 0 tasks
+[15:38:04.210] Worker 61: 0 nodes, 0 tasks
+[15:38:04.210] Worker 62: 0 nodes, 0 tasks
+[15:38:04.210] Worker 63: 0 nodes, 0 tasks
+[15:38:04.210] 
+Total: 27082 nodes in 0.074 seconds (364806 NPS)
+[15:38:04.211] TT: 1873 hits, 13292 stores, 2 collisions (12.3% hit rate)
+[15:38:04.211] 
+=== Work Stealing Statistics ===
+[15:38:04.211] Root tasks: 9, completed: 9
+[15:38:04.211] Subtasks spawned: 102, completed: 97
+[15:38:04.211] Total tasks processed: 106
+[15:38:04.212] Early termination: YES (WIN found)
+[15:38:04.212] 
+=== Result Summary ===
+[15:38:04.212] WIN: 0, LOSE: 0, DRAW: 0, UNKNOWN: 0
+[15:38:04.212] Final result: WIN
+
+--- FINAL RESULT ---
+Result: WIN
+Best move: d1
+══════════════════
+
+[15:38:04.217] === Debug Log Ended ===

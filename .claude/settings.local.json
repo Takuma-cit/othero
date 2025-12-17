@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(for script in exp*.sh run_all_experiments.sh)",
+      "Bash(do echo \"=== Checking $script ===\")",
+      "Bash(bash:*)",
+      "Bash(done)",
+      "Bash(do sed -i 's/\\r$//' \"$script\")",
+      "Bash(echo:*)",
+      "Bash(do echo \"=== $script ===\")",
+      "Bash(gcc:*)",
+      "Bash(ls:*)",
+      "Bash(./othello_endgame_solver_hybrid:*)",
+      "Bash(cat:*)",
+      "Bash(./Deep_Pns_benchmark:*)",
+      "Bash(timeout 5 ./Deep_Pns_benchmark:*)",
+      "Bash(timeout 30 ./Deep_Pns_benchmark:*)"
+    ]
+  }
+}

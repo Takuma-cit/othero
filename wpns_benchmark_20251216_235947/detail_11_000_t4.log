@@ -1,0 +1,379 @@
+=== WPNS Output ===
+Total: 6346 nodes in 0.011 sec (591949 NPS)
+Result: LOSE
+TT hits: 42877, TT stores: 6332
+
+=== Hybrid Output ===
+Dynamic task spawning settings:
+  Max generation: 1
+  Min depth for spawn: 5
+  Spawn limit per node: 9999
+
+[23:59:54.808] Loaded evaluation weights from eval/eval.dat (version 3.2.5)
+Loading position from: test_positions/empties_11_id_000.pos
+[23:59:54.813] 
+=== Othello Endgame Solver (HYBRID LocalHeap+GlobalChunk Version) ===
+[23:59:54.814] Threads: 4 (fixed), Time limit: 30.0s
+[23:59:54.814] Evaluation function: ENABLED
+[23:59:54.814] SIMD acceleration: Move generation=Scalar, Board symmetry=AVX2
+[23:59:54.814] Empties: 11
+[23:59:54.814] TT created: 10240 MB (268435456 entries)
+[23:59:54.814] HYBRID settings: LocalHeap=1024, ChunkSize=16, ExportThreshold=20
+[23:59:54.814] HYBRID: GlobalChunkQueue=4096 chunks, SharedArray=65536 tasks
+[23:59:54.814] Spawn settings: max_gen=1, min_depth=5, limit=9999
+[23:59:54.814] Legal moves: 5
+
+[23:59:54.814] Initial task distribution to SharedTaskArray:
+[23:59:54.814]   a3: eval=-28 -> SharedTaskArray
+[23:59:54.814]   h3: eval=-20 -> SharedTaskArray
+[23:59:54.814]   a2: eval=-31 -> SharedTaskArray
+[23:59:54.814]   f2: eval=-21 -> SharedTaskArray
+[23:59:54.814]   d1: eval=-18 -> SharedTaskArray
+[23:59:54.814] 
+[23:59:54.814] Worker 1 started (HYBRID LocalHeap+GlobalChunk mode)
+[23:59:54.814] Worker 1: ROOT SPLIT START for move a3
+[23:59:54.814] Worker 1: ROOT SPLIT - 9 children found
+[23:59:54.814] Worker 1: ROOT SPLIT for a3, spawned 8/8 children
+[23:59:54.814] Worker 1: EARLY SPAWN at depth=8, spawned 3 (idle=75.0%, local_fill=YES)
+[23:59:54.814] Worker 3 started (HYBRID LocalHeap+GlobalChunk mode)
+[23:59:54.814] Worker 2: All 4 workers started
+[23:59:54.814] Worker 2 started (HYBRID LocalHeap+GlobalChunk mode)
+[23:59:54.814] Worker 2: ROOT SPLIT START for move a2
+[23:59:54.814] Worker 1: ROOT SPLIT a3 not proven (pn=9, dn=1), re-enqueued as normal task
+[23:59:54.814] Worker 3: ROOT SPLIT START for move h3
+[23:59:54.814] Worker 3: ROOT SPLIT - 8 children found
+[23:59:54.814] Worker 3: ROOT SPLIT for h3, spawned 7/7 children
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=8, spawned 3 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: ROOT SPLIT h3 not proven (pn=8, dn=1), re-enqueued as normal task
+[23:59:54.814] Worker 2: ROOT SPLIT - 9 children found
+[23:59:54.814] Worker 2: ROOT SPLIT for a2, spawned 8/8 children
+[23:59:54.814] Worker 2: EARLY SPAWN at depth=8, spawned 3 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 2: ROOT SPLIT a2 not proven (pn=9, dn=1), re-enqueued as normal task
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=9, spawned 7 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=8, spawned 3 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=7, spawned 5 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=6, spawned 2 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=25.0%, local_fill=YES)
+[23:59:54.814] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=5, spawned 4 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=4, spawned 3 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=9, spawned 8 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=8, spawned 3 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=7, spawned 6 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=6, spawned 1 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=4, spawned 2 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 0 started (HYBRID LocalHeap+GlobalChunk mode)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 0: ROOT SPLIT START for move f2
+[23:59:54.815] Worker 0: ROOT SPLIT - 8 children found
+[23:59:54.815] Worker 0: ROOT SPLIT for f2, spawned 7/7 children
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=9, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: ROOT SPLIT f2 not proven (pn=8, dn=1), re-enqueued as normal task
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=9, spawned 8 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=8, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=10, spawned 7 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=9, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=8, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=7, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=25.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=6, spawned 5 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=5, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 3: EARLY SPAWN at depth=6, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.815] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=6, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 2: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.816] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 0: EARLY SPAWN at depth=5, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 2: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 1: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.817] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 0: EARLY SPAWN at depth=6, spawned 5 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 1: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 1: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=7, spawned 5 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 0: EARLY SPAWN at depth=5, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=6, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 1: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.818] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 1: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 1: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.819] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 1: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=6, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.820] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=6, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=7, spawned 5 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=6, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 3: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.821] Worker 2: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 1: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 2: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 0: EARLY SPAWN at depth=8, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 1: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 3: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 2: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 0: EARLY SPAWN at depth=7, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 1 spawned 9 subtasks
+[23:59:54.822] Worker 1 found WIN for move a3! Early termination.
+[23:59:54.822] Worker 0: EARLY SPAWN at depth=6, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 2: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.822] Worker 0 finished: 144 nodes, 2 tasks processed, LocalHeap exports=0 imports=0
+[23:59:54.822] Worker 2 finished: 186 nodes, 2 tasks processed, LocalHeap exports=0 imports=0
+[23:59:54.822] Worker 3 finished: 199 nodes, 2 tasks processed, LocalHeap exports=0 imports=0
+[23:59:54.822] Worker 1 finished: 143 nodes, 2 tasks processed, LocalHeap exports=0 imports=0
+[23:59:54.864] 
+
+=== Final Statistics ===
+[23:59:54.864] Move a3 -> WIN (143 nodes, eval=-28)
+[23:59:54.864] Move h3 -> UNKNOWN (199 nodes, eval=-20)
+[23:59:54.864] Move a2 -> UNKNOWN (186 nodes, eval=-31)
+[23:59:54.864] Move f2 -> UNKNOWN (144 nodes, eval=-21)
+[23:59:54.864] Move d1 -> UNKNOWN (0 nodes, eval=-18)
+[23:59:54.864] 
+=== Worker Statistics ===
+[23:59:54.864] Worker 0: 144 nodes, 2 tasks
+[23:59:54.864] Worker 1: 143 nodes, 2 tasks
+[23:59:54.864] Worker 2: 186 nodes, 2 tasks
+[23:59:54.864] Worker 3: 199 nodes, 2 tasks
+[23:59:54.864] 
+Total: 1344 nodes in 0.051 seconds (26559 NPS)
+[23:59:54.864] TT: 77 hits, 597 stores, 0 collisions (11.4% hit rate)
+[23:59:54.864] 
+=== Work Stealing Statistics ===
+[23:59:54.864] Root tasks: 5, completed: 1
+[23:59:54.864] Subtasks spawned: 641, completed: 0
+[23:59:54.864] Early termination: YES (WIN found)
+[23:59:54.864] 
+=== HYBRID Statistics ===
+[23:59:54.864] LocalHeap: 13 pushes, 12 pops
+[23:59:54.864] GlobalChunkQueue: 0 chunks pushed, 0 chunks popped
+[23:59:54.864] Export/Import: 0 exported, 0 imported
+[23:59:54.864] Global switches (TT-hit triggered): 0
+[23:59:54.864] 
+=== Result Summary ===
+[23:59:54.864] WIN: 0, LOSE: 0, DRAW: 0, UNKNOWN: 0
+[23:59:54.864] Final result: WIN
+
+--- FINAL RESULT ---
+Result: WIN
+Best move: a3
+══════════════════
+
+[23:59:54.866] === Debug Log Ended ===

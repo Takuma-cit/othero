@@ -1,0 +1,10 @@
+Empties,FileID,Position,Threads,WPNS_Result,WPNS_Time,WPNS_Nodes,WPNS_NPS,WPNS_TTHits,Hybrid_Result,Hybrid_Time,Hybrid_Nodes,Hybrid_NPS,Hybrid_TTHits,Match
+10,000,test_positions/empties_10_id_000.pos,4,LOSE,0.009,5098,587262,33390,WIN,0.051,4304,84502,0,NO
+10,001,test_positions/empties_10_id_001.pos,4,WIN,0.004,1803,485698,14702,WIN,0.051,538,10621,0,YES
+10,002,test_positions/empties_10_id_002.pos,4,WIN,0.003,1561,484545,11107,WIN,0.052,512,9842,0,YES
+11,000,test_positions/empties_11_id_000.pos,4,WIN,0.012,7154,578757,48484,WIN,0.051,1262,24918,0,YES
+11,001,test_positions/empties_11_id_001.pos,4,WIN,0.004,1763,474873,14010,WIN,0.051,2748,53604,0,YES
+11,002,test_positions/empties_11_id_002.pos,4,WIN,0.002,739,386790,5900,WIN,0.401,57797,144006,0,YES
+12,000,test_positions/empties_12_id_000.pos,4,LOSE,0.022,14717,669555,116056,LOSE,0.952,155524,163301,0,YES
+12,001,test_positions/empties_12_id_001.pos,4,LOSE,0.024,14111,590064,149248,WIN,0.602,95591,158812,0,NO
+12,002,test_positions/empties_12_id_002.pos,4,WIN,0.012,6555,556311,56888,WIN,0.051,5158,101811,0,YES

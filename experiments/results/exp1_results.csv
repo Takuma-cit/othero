@@ -1,0 +1,10 @@
+Solver,Position,Empties,Result,Time_Sec,Total_Nodes,NPS,Worker_Util,Subtasks,Status
+Sequential,empties_10_id_000.pos,10,WIN,0,0,0,0,0,SOLVED
+WorkStealing,empties_10_id_000.pos,10,WIN,0.065,4336,66855,32.30,28,SOLVED
+Hybrid,empties_10_id_000.pos,10,WIN,0.064,4263,66757,20.58,1,SOLVED
+Sequential,empties_10_id_001.pos,10,UNKNOWN,0,0,0,0,0,UNKNOWN
+WorkStealing,empties_10_id_001.pos,10,WIN,0.034,1694,50564,7.81,0,SOLVED
+Hybrid,empties_10_id_001.pos,10,WIN,0.033,1184,36147,12.50,2,SOLVED
+Sequential,empties_12_id_000.pos,12,UNKNOWN,0,0,0,0,0,UNKNOWN
+WorkStealing,empties_12_id_000.pos,12,WIN,0.074,27082,364806,70.76,97,SOLVED
+Hybrid,empties_12_id_000.pos,12,WIN,0.066,29155,445032,52.22,13,SOLVED

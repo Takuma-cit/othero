@@ -1,0 +1,184 @@
+
+########################################
+# ソルバービルド
+########################################
+[2025-12-17 00:19:32] WPNS TT-Parallel版をビルド中...
+[2025-12-17 00:19:33]   [OK] ./wpns_tt_parallel ビルド成功
+[2025-12-17 00:19:33] Hybrid版をビルド中...
+othello_endgame_solver_hybrid_check_tthit_fixed.c: In function ‘debug_log’:
+othello_endgame_solver_hybrid_check_tthit_fixed.c:363:49: warning: ‘%03ld’ directive output may be truncated writing between 3 and 17 bytes into a region of size between 15 and 78 [-Wformat-truncation=]
+  363 |     snprintf(timestamp, sizeof(timestamp), "[%s.%03ld]", tmbuf, tv.tv_usec / 1000);
+      |                                                 ^~~~~
+othello_endgame_solver_hybrid_check_tthit_fixed.c:363:44: note: directive argument in the range [-9223372036854775, 9223372036854775]
+  363 |     snprintf(timestamp, sizeof(timestamp), "[%s.%03ld]", tmbuf, tv.tv_usec / 1000);
+      |                                            ^~~~~~~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from othello_endgame_solver_hybrid_check_tthit_fixed.c:17:
+In function ‘snprintf’,
+    inlined from ‘debug_log’ at othello_endgame_solver_hybrid_check_tthit_fixed.c:363:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 7 and 84 bytes into a destination of size 80
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+othello_endgame_solver_hybrid_check_tthit_fixed.c: In function ‘solve_endgame’:
+othello_endgame_solver_hybrid_check_tthit_fixed.c:4344:49: warning: ‘%d’ directive output may be truncated writing between 1 and 10 bytes into a region of size 7 [-Wformat-truncation=]
+ 4344 |         snprintf(move_str, sizeof(move_str), "%c%d",
+      |                                                 ^~
+othello_endgame_solver_hybrid_check_tthit_fixed.c:4344:46: note: directive argument in the range [-268435447, 268435464]
+ 4344 |         snprintf(move_str, sizeof(move_str), "%c%d",
+      |                                              ^~~~~~
+In function ‘snprintf’,
+    inlined from ‘solve_endgame’ at othello_endgame_solver_hybrid_check_tthit_fixed.c:4344:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 3 and 12 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+othello_endgame_solver_hybrid_check_tthit_fixed.c: In function ‘solve_endgame’:
+othello_endgame_solver_hybrid_check_tthit_fixed.c:4438:53: warning: ‘%d’ directive output may be truncated writing between 1 and 10 bytes into a region of size 3 [-Wformat-truncation=]
+ 4438 |             snprintf(move_str, sizeof(move_str), "%c%d",
+      |                                                     ^~
+othello_endgame_solver_hybrid_check_tthit_fixed.c:4438:50: note: directive argument in the range [-268435447, 268435464]
+ 4438 |             snprintf(move_str, sizeof(move_str), "%c%d",
+      |                                                  ^~~~~~
+In function ‘snprintf’,
+    inlined from ‘solve_endgame’ at othello_endgame_solver_hybrid_check_tthit_fixed.c:4438:13:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 3 and 12 bytes into a destination of size 4
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+[2025-12-17 00:19:34]   [OK] ./othello_hybrid_solver ビルド成功
+
+########################################
+# 実験1: 基本性能比較
+########################################
+[2025-12-17 00:19:34] テスト: empties_10_id_000.pos (スレッド: 4)
+[2025-12-17 00:19:35]   WPNS: LOSE (0.009s)
+[2025-12-17 00:19:35]   Hybrid: WIN (0.051s)
+[2025-12-17 00:19:35]   [WARN] 結果不一致!
+[2025-12-17 00:19:35] テスト: empties_10_id_001.pos (スレッド: 4)
+[2025-12-17 00:19:35]   WPNS: WIN (0.004s)
+[2025-12-17 00:19:35]   Hybrid: WIN (0.051s)
+[2025-12-17 00:19:35] テスト: empties_10_id_002.pos (スレッド: 4)
+[2025-12-17 00:19:37]   WPNS: WIN (0.003s)
+[2025-12-17 00:19:37]   Hybrid: WIN (0.052s)
+[2025-12-17 00:19:37] テスト: empties_11_id_000.pos (スレッド: 4)
+[2025-12-17 00:19:37]   WPNS: WIN (0.012s)
+[2025-12-17 00:19:37]   Hybrid: WIN (0.051s)
+[2025-12-17 00:19:37] テスト: empties_11_id_001.pos (スレッド: 4)
+[2025-12-17 00:19:38]   WPNS: WIN (0.004s)
+[2025-12-17 00:19:38]   Hybrid: WIN (0.051s)
+[2025-12-17 00:19:38] テスト: empties_11_id_002.pos (スレッド: 4)
+[2025-12-17 00:19:38]   WPNS: WIN (0.002s)
+[2025-12-17 00:19:38]   Hybrid: WIN (0.401s)
+[2025-12-17 00:19:38] テスト: empties_12_id_000.pos (スレッド: 4)
+[2025-12-17 00:19:40]   WPNS: LOSE (0.022s)
+[2025-12-17 00:19:40]   Hybrid: LOSE (0.952s)
+[2025-12-17 00:19:40] テスト: empties_12_id_001.pos (スレッド: 4)
+[2025-12-17 00:19:41]   WPNS: LOSE (0.024s)
+[2025-12-17 00:19:41]   Hybrid: WIN (0.602s)
+[2025-12-17 00:19:41]   [WARN] 結果不一致!
+[2025-12-17 00:19:41] テスト: empties_12_id_002.pos (スレッド: 4)
+[2025-12-17 00:19:41]   WPNS: WIN (0.012s)
+[2025-12-17 00:19:41]   Hybrid: WIN (0.051s)
+[2025-12-17 00:19:41] 基本性能比較完了: benchmark_results_20251217_001932/01_basic_comparison.csv
+
+########################################
+# 実験2: 強スケーリング実験
+########################################
+[2025-12-17 00:19:41] テスト局面: empties_12_id_000.pos
+[2025-12-17 00:19:41] スレッド数: 1
+[2025-12-17 00:19:42]   試行 1/1
+[2025-12-17 00:19:43] スレッド数: 2
+[2025-12-17 00:19:43]   試行 1/1
+[2025-12-17 00:19:44] スレッド数: 4
+[2025-12-17 00:19:44]   試行 1/1
+[2025-12-17 00:19:46] スケーリング実験完了
+
+########################################
+# 実験3: 空きマス別性能分析
+########################################
+[2025-12-17 00:19:46] 空きマス: 10
+[2025-12-17 00:19:47] 空きマス: 11
+[2025-12-17 00:19:48] 空きマス: 12
+[2025-12-17 00:19:51] 空きマス別分析完了: benchmark_results_20251217_001932/03_empties_analysis.csv
+[2025-12-17 00:19:51] FFOテストはスキップされました（-f オプションで有効化）
+
+########################################
+# 実験5: 結果一致チェック
+########################################
+[2025-12-17 00:19:51] 結果一致チェック完了: benchmark_results_20251217_001932/05_agreement_check.csv
+
+########################################
+# サマリーレポート生成
+########################################
+================================================================================
+WPNS vs Hybrid 包括的ベンチマーク結果
+================================================================================
+実行日時: 2025年 12月 17日 水曜日 00:19:51 JST
+実行モード: wsl
+タイムアウト: 30秒
+スレッド数: 1 2 4
+空きマス数: 10 11 12
+試行回数: 1
+FFOテスト: false
+
+--------------------------------------------------------------------------------
+[1] 基本性能比較
+--------------------------------------------------------------------------------
+WPNS平均時間:   0.010秒
+Hybrid平均時間: 0.251秒
+
+--------------------------------------------------------------------------------
+[2] 強スケーリング
+--------------------------------------------------------------------------------
+WPNS スケーリング結果:
+    1スレッド: 0.013s (Speedup: 1.00x, 効率: 100.0%)
+    2スレッド: 0.020s (Speedup: 0.65x, 効率: 32.0%)
+    4スレッド: 0.022s (Speedup: 0.59x, 効率: 14.0%)
+
+Hybrid スケーリング結果:
+    1スレッド: 1.006s (Speedup: 1.00x, 効率: 100.0%)
+    2スレッド: 0.802s (Speedup: 1.25x, 効率: 62.0%)
+    4スレッド: 0.853s (Speedup: 1.18x, 効率: 29.0%)
+
+--------------------------------------------------------------------------------
+[3] 空きマス別性能
+--------------------------------------------------------------------------------
+空きマス | ソルバー | 平均時間 | 平均ノード | 解決率
+---------|----------|----------|------------|--------
+      10 | WPNS     |    0.004s |       2764 | 100.0%
+      10 | Hybrid   |    0.051s |       2049 | 100.0%
+      11 | WPNS     |    0.005s |       2916 | 100.0%
+      11 | Hybrid   |    0.151s |      19631 | 100.0%
+      12 | WPNS     |    0.018s |      10329 | 100.0%
+      12 | Hybrid   |    0.518s |      86748 | 100.0%
+
+--------------------------------------------------------------------------------
+[4] FFO難問テスト結果
+--------------------------------------------------------------------------------
+FFOテストは実行されませんでした
+--------------------------------------------------------------------------------
+[5] 結果一致率
+--------------------------------------------------------------------------------
+Basic_Comparison: 7/9 (77.7%)
+
+================================================================================
+出力ファイル一覧
+================================================================================
+-rwxrwxrwx 1 takuma takuma 1074 12月 17 00:19 benchmark_results_20251217_001932/01_basic_comparison.csv
+-rwxrwxrwx 1 takuma takuma  161 12月 17 00:19 benchmark_results_20251217_001932/02_scaling_hybrid.csv
+-rwxrwxrwx 1 takuma takuma  154 12月 17 00:19 benchmark_results_20251217_001932/02_scaling_wpns.csv
+-rwxrwxrwx 1 takuma takuma  283 12月 17 00:19 benchmark_results_20251217_001932/03_empties_analysis.csv
+-rwxrwxrwx 1 takuma takuma   73 12月 17 00:19 benchmark_results_20251217_001932/05_agreement_check.csv
+
+================================================================================
+[2025-12-17 00:19:51] サマリーレポート: benchmark_results_20251217_001932/summary.txt

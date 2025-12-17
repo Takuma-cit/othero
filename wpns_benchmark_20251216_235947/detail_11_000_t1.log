@@ -1,0 +1,134 @@
+=== WPNS Output ===
+Total: 2443 nodes in 0.007 sec (366783 NPS)
+Result: LOSE
+TT hits: 15444, TT stores: 2443
+
+=== Hybrid Output ===
+Dynamic task spawning settings:
+  Max generation: 1
+  Min depth for spawn: 5
+  Spawn limit per node: 9999
+
+[23:59:54.013] Loaded evaluation weights from eval/eval.dat (version 3.2.5)
+Loading position from: test_positions/empties_11_id_000.pos
+[23:59:54.017] 
+=== Othello Endgame Solver (HYBRID LocalHeap+GlobalChunk Version) ===
+[23:59:54.017] Threads: 1 (fixed), Time limit: 30.0s
+[23:59:54.017] Evaluation function: ENABLED
+[23:59:54.017] SIMD acceleration: Move generation=Scalar, Board symmetry=AVX2
+[23:59:54.017] Empties: 11
+[23:59:54.017] TT created: 10240 MB (268435456 entries)
+[23:59:54.017] HYBRID settings: LocalHeap=1024, ChunkSize=16, ExportThreshold=20
+[23:59:54.017] HYBRID: GlobalChunkQueue=4096 chunks, SharedArray=65536 tasks
+[23:59:54.017] Spawn settings: max_gen=1, min_depth=5, limit=9999
+[23:59:54.017] Legal moves: 5
+
+[23:59:54.017] Initial task distribution to SharedTaskArray:
+[23:59:54.017]   a3: eval=-28 -> SharedTaskArray
+[23:59:54.017]   h3: eval=-20 -> SharedTaskArray
+[23:59:54.017]   a2: eval=-31 -> SharedTaskArray
+[23:59:54.017]   f2: eval=-21 -> SharedTaskArray
+[23:59:54.017]   d1: eval=-18 -> SharedTaskArray
+[23:59:54.017] 
+[23:59:54.017] Worker 0: All 1 workers started
+[23:59:54.017] Worker 0 started (HYBRID LocalHeap+GlobalChunk mode)
+[23:59:54.017] Worker 0: ROOT SPLIT START for move a3
+[23:59:54.017] Worker 0: ROOT SPLIT - 9 children found
+[23:59:54.017] Worker 0: ROOT SPLIT for a3, spawned 8/8 children
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=8, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: ROOT SPLIT a3 not proven (pn=9, dn=1), re-enqueued as normal task
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=9, spawned 8 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=8, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=4, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.017] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=6, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 3 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=7, spawned 6 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=5, spawned 4 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=4, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=2, spawned 1 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0: EARLY SPAWN at depth=3, spawned 2 (idle=0.0%, local_fill=YES)
+[23:59:54.018] Worker 0 spawned 9 subtasks
+[23:59:54.018] Worker 0 found WIN for move a3! Early termination.
+[23:59:54.018] Worker 0 finished: 148 nodes, 2 tasks processed, LocalHeap exports=0 imports=0
+[23:59:54.067] 
+
+=== Final Statistics ===
+[23:59:54.067] Move a3 -> WIN (148 nodes, eval=-28)
+[23:59:54.067] Move h3 -> UNKNOWN (0 nodes, eval=-20)
+[23:59:54.067] Move a2 -> UNKNOWN (0 nodes, eval=-31)
+[23:59:54.067] Move f2 -> UNKNOWN (0 nodes, eval=-21)
+[23:59:54.067] Move d1 -> UNKNOWN (0 nodes, eval=-18)
+[23:59:54.067] 
+=== Worker Statistics ===
+[23:59:54.067] Worker 0: 148 nodes, 2 tasks
+[23:59:54.067] 
+Total: 296 nodes in 0.050 seconds (5864 NPS)
+[23:59:54.067] TT: 16 hits, 136 stores, 0 collisions (10.5% hit rate)
+[23:59:54.067] 
+=== Work Stealing Statistics ===
+[23:59:54.067] Root tasks: 5, completed: 1
+[23:59:54.067] Subtasks spawned: 144, completed: 0
+[23:59:54.067] Early termination: YES (WIN found)
+[23:59:54.067] 
+=== HYBRID Statistics ===
+[23:59:54.067] LocalHeap: 10 pushes, 9 pops
+[23:59:54.067] GlobalChunkQueue: 0 chunks pushed, 0 chunks popped
+[23:59:54.067] Export/Import: 0 exported, 0 imported
+[23:59:54.067] Global switches (TT-hit triggered): 0
+[23:59:54.067] 
+=== Result Summary ===
+[23:59:54.067] WIN: 0, LOSE: 0, DRAW: 0, UNKNOWN: 0
+[23:59:54.067] Final result: WIN
+
+--- FINAL RESULT ---
+Result: WIN
+Best move: a3
+══════════════════
+
+[23:59:54.068] === Debug Log Ended ===

@@ -1,0 +1,2 @@
+Empties,FileID,PosFile,Result,Nodes,Time,NPS,WorkerUtilization,Subtasks,RootSplits,MidSpawns,DynamicParams,EarlySpawns,LocalHeapFill,Status
+15,0,test_positions/empties_15_id_000.pos,UNKNOWN,0,0,0,0,0,0,0,0,0,0,UNKNOWN

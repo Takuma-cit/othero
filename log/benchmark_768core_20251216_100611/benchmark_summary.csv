@@ -1,0 +1,8 @@
+Empties,FileID,PosFile,Result,Nodes,Time,NPS,WorkerUtilization,Subtasks,RootSplits,MidSpawns,DynamicParams,EarlySpawns,LocalHeapFill,Status
+20,0,test_positions/empties_20_id_000.pos,UNKNOWN
+0
+0,0
+0
+262,0
+
+262,0,38.5,0,11,0,,,,UNKNOWN

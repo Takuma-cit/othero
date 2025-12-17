@@ -1,0 +1,257 @@
+Dynamic task spawning settings:
+  Max generation: 1
+  Min depth for spawn: 5
+  Spawn limit per node: 9999
+
+[15:38:03.684] Loaded evaluation weights from eval/eval.dat (version 3.2.5)
+Loading position from: test_positions/empties_10_id_001.pos
+[15:38:03.686] 
+=== Othello Endgame Solver (HYBRID LocalHeap+GlobalChunk Version) ===
+[15:38:03.686] Threads: 64 (fixed), Time limit: 300.0s
+[15:38:03.686] Evaluation function: ENABLED
+[15:38:03.686] SIMD acceleration: Move generation=Scalar, Board symmetry=AVX2
+[15:38:03.686] Empties: 10
+[15:38:03.686] TT created: 10240 MB (268435456 entries)
+[15:38:03.686] HYBRID settings: LocalHeap=1024, ChunkSize=16, ExportThreshold=20
+[15:38:03.687] HYBRID: GlobalChunkQueue=4096 chunks, SharedArray=4096 tasks
+[15:38:03.687] Spawn settings: max_gen=1, min_depth=5, limit=9999
+[15:38:03.687] Legal moves: 6
+
+[15:38:03.687] Initial task distribution to SharedTaskArray:
+[15:38:03.687]   a6: eval=-15 -> SharedTaskArray
+[15:38:03.687]   a5: eval=-18 -> SharedTaskArray
+[15:38:03.687]   a4: eval=-15 -> SharedTaskArray
+[15:38:03.687]   a1: eval=-8 -> SharedTaskArray
+[15:38:03.687]   e1: eval=-22 -> SharedTaskArray
+[15:38:03.687]   h1: eval=-15 -> SharedTaskArray
+[15:38:03.687] 
+[15:38:03.689] Worker 0 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.689] Worker 1 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.689] Worker 12 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.689] Worker 16 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.690] Worker 4 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.690] Worker 5 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.690] Worker 31 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.691] Worker 40 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.691] Worker 7 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.692] Worker 7 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.692] Worker 61 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.692] Worker 0 finished: 226 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.692] Worker 13 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.692] Worker 13 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.692] Worker 14 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.693] Worker 14 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.693] Worker 3 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.693] Worker 3 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.693] Worker 18 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.693] Worker 18 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.693] Worker 20 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.693] Worker 20 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.693] Worker 22 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.694] Worker 22 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.694] Worker 24 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.694] Worker 24 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.694] Worker 26 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.694] Worker 26 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.694] Worker 28 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.694] Worker 28 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.694] Worker 29 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.695] Worker 29 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.695] Worker 6 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.695] Worker 6 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.695] Worker 33 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.695] Worker 33 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.695] Worker 35 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.696] Worker 35 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.696] Worker 38 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.696] Worker 38 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.696] Worker 37 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.696] Worker 37 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.696] Worker 41 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.696] Worker 41 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.696] Worker 43 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.697] Worker 43 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.697] Worker 48 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.697] Worker 48 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.697] Worker 45 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.697] Worker 45 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.697] Worker 46 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.697] Worker 46 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.697] Worker 50 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.698] Worker 50 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.698] Worker 52 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.698] Worker 52 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.698] Worker 53 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.698] Worker 53 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.699] Worker 55 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.699] Worker 55 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.699] Worker 1 finished: 94 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.699] Worker 40 finished: 8 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.699] Worker 16 finished: 89 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.699] Worker 58 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.700] Worker 58 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.700] Worker 59 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.700] Worker 59 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.700] Worker 60 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.700] Worker 60 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.700] Worker 5 finished: 43 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.700] Worker 62 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.701] Worker 62 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.701] Worker 11 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.701] Worker 11 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.701] Worker 2 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.701] Worker 2 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.701] Worker 17 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.701] Worker 17 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.702] Worker 21 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.702] Worker 21 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.702] Worker 25 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.702] Worker 25 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.702] Worker 12 spawned 8 subtasks
+[15:38:03.702] Worker 30 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.702] Worker 30 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.703] Worker 34 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.703] Worker 34 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.703] Worker 39 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.703] Worker 39 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.703] Worker 42 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.703] Worker 42 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.703] Worker 4 found WIN for move e1! Early termination.
+[15:38:03.704] Worker 47 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.704] Worker 47 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.704] Worker 51 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.704] Worker 51 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.704] Worker 54 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.704] Worker 54 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.704] Worker 31 finished: 22 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.705] Worker 57 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.705] Worker 57 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.705] Worker 61 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.705] Worker 63 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.705] Worker 63 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.705] Worker 19 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.705] Worker 19 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.706] Worker 27 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.706] Worker 27 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.706] Worker 12 finished: 67 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.706] Worker 36 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.706] Worker 36 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.706] Worker 44 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.706] Worker 49 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.707] Worker 49 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.707] Worker 9 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.707] Worker 9 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.707] Worker 10 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.707] Worker 10 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.707] Worker 23 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.707] Worker 23 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.708] Worker 8 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.708] Worker 8 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.708] Worker 4 finished: 58 nodes, 1 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.708] Worker 56 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.708] Worker 56 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.708] Worker 32 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.708] Worker 32 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.708] Worker 15 started (HYBRID LocalHeap+GlobalChunk mode)
+[15:38:03.709] Worker 15 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.709] Worker 44 finished: 0 nodes, 0 tasks processed, LocalHeap exports=0 imports=0
+[15:38:03.710] 
+
+=== Final Statistics ===
+[15:38:03.710] Move a6 -> UNKNOWN (226 nodes, eval=-15)
+[15:38:03.710] Move a5 -> UNKNOWN (94 nodes, eval=-18)
+[15:38:03.710] Move a4 -> WIN (67 nodes, eval=-15)
+[15:38:03.711] Move a1 -> UNKNOWN (89 nodes, eval=-8)
+[15:38:03.711] Move e1 -> WIN (58 nodes, eval=-22)
+[15:38:03.711] Move h1 -> UNKNOWN (43 nodes, eval=-15)
+[15:38:03.711] 
+=== Worker Statistics ===
+[15:38:03.711] Worker 0: 226 nodes, 1 tasks
+[15:38:03.711] Worker 1: 94 nodes, 1 tasks
+[15:38:03.711] Worker 2: 0 nodes, 0 tasks
+[15:38:03.711] Worker 3: 0 nodes, 0 tasks
+[15:38:03.711] Worker 4: 58 nodes, 1 tasks
+[15:38:03.712] Worker 5: 43 nodes, 1 tasks
+[15:38:03.712] Worker 6: 0 nodes, 0 tasks
+[15:38:03.712] Worker 7: 0 nodes, 0 tasks
+[15:38:03.712] Worker 8: 0 nodes, 0 tasks
+[15:38:03.712] Worker 9: 0 nodes, 0 tasks
+[15:38:03.712] Worker 10: 0 nodes, 0 tasks
+[15:38:03.712] Worker 11: 0 nodes, 0 tasks
+[15:38:03.712] Worker 12: 67 nodes, 1 tasks
+[15:38:03.712] Worker 13: 0 nodes, 0 tasks
+[15:38:03.713] Worker 14: 0 nodes, 0 tasks
+[15:38:03.713] Worker 15: 0 nodes, 0 tasks
+[15:38:03.713] Worker 16: 89 nodes, 1 tasks
+[15:38:03.713] Worker 17: 0 nodes, 0 tasks
+[15:38:03.713] Worker 18: 0 nodes, 0 tasks
+[15:38:03.713] Worker 19: 0 nodes, 0 tasks
+[15:38:03.713] Worker 20: 0 nodes, 0 tasks
+[15:38:03.713] Worker 21: 0 nodes, 0 tasks
+[15:38:03.713] Worker 22: 0 nodes, 0 tasks
+[15:38:03.714] Worker 23: 0 nodes, 0 tasks
+[15:38:03.714] Worker 24: 0 nodes, 0 tasks
+[15:38:03.714] Worker 25: 0 nodes, 0 tasks
+[15:38:03.714] Worker 26: 0 nodes, 0 tasks
+[15:38:03.714] Worker 27: 0 nodes, 0 tasks
+[15:38:03.714] Worker 28: 0 nodes, 0 tasks
+[15:38:03.714] Worker 29: 0 nodes, 0 tasks
+[15:38:03.715] Worker 30: 0 nodes, 0 tasks
+[15:38:03.715] Worker 31: 22 nodes, 1 tasks
+[15:38:03.715] Worker 32: 0 nodes, 0 tasks
+[15:38:03.715] Worker 33: 0 nodes, 0 tasks
+[15:38:03.715] Worker 34: 0 nodes, 0 tasks
+[15:38:03.715] Worker 35: 0 nodes, 0 tasks
+[15:38:03.715] Worker 36: 0 nodes, 0 tasks
+[15:38:03.716] Worker 37: 0 nodes, 0 tasks
+[15:38:03.716] Worker 38: 0 nodes, 0 tasks
+[15:38:03.716] Worker 39: 0 nodes, 0 tasks
+[15:38:03.716] Worker 40: 8 nodes, 1 tasks
+[15:38:03.716] Worker 41: 0 nodes, 0 tasks
+[15:38:03.716] Worker 42: 0 nodes, 0 tasks
+[15:38:03.716] Worker 43: 0 nodes, 0 tasks
+[15:38:03.716] Worker 44: 0 nodes, 0 tasks
+[15:38:03.717] Worker 45: 0 nodes, 0 tasks
+[15:38:03.717] Worker 46: 0 nodes, 0 tasks
+[15:38:03.717] Worker 47: 0 nodes, 0 tasks
+[15:38:03.717] Worker 48: 0 nodes, 0 tasks
+[15:38:03.717] Worker 49: 0 nodes, 0 tasks
+[15:38:03.717] Worker 50: 0 nodes, 0 tasks
+[15:38:03.717] Worker 51: 0 nodes, 0 tasks
+[15:38:03.717] Worker 52: 0 nodes, 0 tasks
+[15:38:03.717] Worker 53: 0 nodes, 0 tasks
+[15:38:03.718] Worker 54: 0 nodes, 0 tasks
+[15:38:03.718] Worker 55: 0 nodes, 0 tasks
+[15:38:03.718] Worker 56: 0 nodes, 0 tasks
+[15:38:03.718] Worker 57: 0 nodes, 0 tasks
+[15:38:03.718] Worker 58: 0 nodes, 0 tasks
+[15:38:03.718] Worker 59: 0 nodes, 0 tasks
+[15:38:03.719] Worker 60: 0 nodes, 0 tasks
+[15:38:03.719] Worker 61: 0 nodes, 0 tasks
+[15:38:03.719] Worker 62: 0 nodes, 0 tasks
+[15:38:03.719] Worker 63: 0 nodes, 0 tasks
+[15:38:03.719] 
+Total: 1184 nodes in 0.033 seconds (36147 NPS)
+[15:38:03.719] TT: 33 hits, 559 stores, 0 collisions (5.6% hit rate)
+[15:38:03.719] 
+=== Work Stealing Statistics ===
+[15:38:03.720] Root tasks: 6, completed: 2
+[15:38:03.720] Subtasks spawned: 8, completed: 2
+[15:38:03.720] Early termination: YES (WIN found)
+[15:38:03.720] 
+=== HYBRID Statistics ===
+[15:38:03.720] LocalHeap: 1 pushes, 0 pops
+[15:38:03.721] GlobalChunkQueue: 0 chunks pushed, 0 chunks popped
+[15:38:03.721] Export/Import: 0 exported, 0 imported
+[15:38:03.721] Global switches (TT-hit triggered): 0
+[15:38:03.721] 
+=== Result Summary ===
+[15:38:03.721] WIN: 0, LOSE: 0, DRAW: 0, UNKNOWN: 0
+[15:38:03.721] Final result: WIN
+
+--- FINAL RESULT ---
+Result: WIN
+Best move: e1
+══════════════════
+
+[15:38:03.723] === Debug Log Ended ===

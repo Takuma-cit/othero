@@ -1,0 +1,90 @@
+● 包括的ベンチマークスクリプトに ExpE と ExpF を追加しました。
+
+  追加した実験
+
+  [6] 難易度ばらつき分析 (ExpE)
+
+  - 目的: 同じ空きマス数での問題難易度のばらつきを測定し、ソルバーのロバスト性を評価
+  - 指標:
+    - CV（変動係数）: 小さいほど安定
+    - Max/Min比: 最難/最易問題の時間比
+  - WSL結果例: WPNS CV=0.34, Hybrid CV=0.62 → WPNSの方がロバスト
+
+  [7] TTヒット率分析 (ExpF)
+
+  - 目的: 置換表（Transposition Table）の効率を測定
+  - 指標: Hits/Node（ノードあたりのTTヒット数）
+  - WSL結果例: WPNS 9.01 hits/node（高い再利用効率）
+
+  出力ファイル一覧
+
+  | ファイル                 | 内容                     |
+  |--------------------------|--------------------------|
+  | 06_variance_analysis.csv | 各問題の詳細時間データ   |
+  | 06_robustness.csv        | ソルバー別ロバスト性統計 |
+  | 07_tt_hit_rate.csv       | TTヒット統計             |
+
+  実行方法
+
+  # WSLでテスト
+  ./run_comprehensive_benchmark.sh --wsl
+
+  # 学内マシンでフル実行（ExpE: 20問、ExpF: 4空きマス）
+  ./run_comprehensive_benchmark.sh --kemeko
+
+  これで論文に必要な多角的なベンチマークデータが取得できます。
+
+> あなたが作成したテストスクリプトの実行方法を教えて
+
+● run_comprehensive_benchmark.sh の実行方法
+
+  基本コマンド
+
+  # WSL環境でテスト（軽量・短時間）
+  ./run_comprehensive_benchmark.sh --wsl
+
+  # 学内マシン(kemeko)で本番実行（フル実行）
+  ./run_comprehensive_benchmark.sh --kemeko
+
+  モード別の設定
+
+  | 項目         | --wsl      | --kemeko |
+  |--------------|------------|----------|
+  | スレッド数   | 1, 2, 4    | 1〜768   |
+  | 空きマス     | 10, 11, 12 | 10〜20   |
+  | タイムアウト | 30秒       | 300秒    |
+  | 試行回数     | 1回        | 3回      |
+  | FFOテスト    | なし       | あり     |
+
+  カスタムオプション
+
+  # FFOテストを有効化
+  ./run_comprehensive_benchmark.sh --wsl -f
+
+  # スレッド数指定
+  ./run_comprehensive_benchmark.sh -T "1 4 16 64"
+
+  # 空きマス指定
+  ./run_comprehensive_benchmark.sh -e "12 14 16"
+
+  # タイムアウト変更（秒）
+  ./run_comprehensive_benchmark.sh -t 120
+
+  実行後の出力
+
+  benchmark_results_YYYYMMDD_HHMMSS/
+  ├── 01_basic_comparison.csv    # 基本性能比較
+  ├── 02_scaling_wpns.csv        # WPNSスケーリング
+  ├── 02_scaling_hybrid.csv      # Hybridスケーリング
+  ├── 03_empties_analysis.csv    # 空きマス別分析
+  ├── 04_ffo_results.csv         # FFO難問結果
+  ├── 05_agreement_check.csv     # 結果一致チェック
+  ├── 06_variance_analysis.csv   # 難易度ばらつき詳細
+  ├── 06_robustness.csv          # ロバスト性統計
+  ├── 07_tt_hit_rate.csv         # TTヒット統計
+  ├── summary.txt                # 総合サマリー
+  └── logs/                      # 詳細ログ
+
+  ヘルプ表示
+
+  ./run_comprehensive_benchmark.sh --help
